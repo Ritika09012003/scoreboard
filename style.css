@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f2f2f2;
+
+}
+
+h1 {
+    margin-top: 30px;
+    color: #333;
+
+}
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 100px;
+}
+
+.team {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(255, 21, 21, 0.2)
+}
+
+.score {
+    font-size: 60px;
+    margin: 20px 0;
+    color: #ef1010;
+}
+
+button {
+    font-size: 18px;
+    margin: 10px;
+    padding: 10px 10px;
+    cursor: pointer;
+    background-color: #f33d3d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #5e0404;
+}
+
+.reset-btn {
+    margin-top: 40px;
+    background-color: #e74c3c;
+}
